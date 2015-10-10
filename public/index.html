@@ -1,12 +1,12 @@
 <!DOCTYPE html>
-<html ng-app>
+<html ng-app="myApp">
 <head>
   <title>Contact List App</title>
 <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css">
 <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap-theme.min.css">
 </head>
 <body>
-  <div class="container">
+  <div class="container" ng-controller="AppCtrl">
     <h1>My contact list app</h1>
 
     <table class="table">
@@ -22,5 +22,7 @@
   </div>
 
 <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.4.5/angular.min.js"></script>
+<script src="javascript/app.js"></script>
+<script src="javascript/controllers/controller.js"></script>
 </body>
 </html>
